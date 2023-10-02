@@ -16,3 +16,15 @@ git branch --list | grep -v 'master' | xargs git branch -D
 git reset HEAD^
 git push origin +HEAD
 ```
+
+#### How to revert merge?
+```bash
+# create new branch for being safe.
+git revert -m 1 <MERGE_COMMIT_ID>
+git push
+```
+
+#### How to revert conflicted merge?
+```bash
+git merge --abort
+```
