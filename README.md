@@ -6,7 +6,7 @@ A repository that contains life and timer saver git commands; rollback, revert, 
 
 <hr/>
 
-### How to delete all local git branches?
+#### How to delete all local git branches?
 ```bash
 git branch --list | grep -v 'master' | xargs git branch -D
 ```
