@@ -5,6 +5,7 @@ A repository that contains life and timer saver git commands; rollback, revert, 
 - [How to undo the last commit from a remote git repository?](#how-to-undo-the-last-commit-from-a-remote-git-repository)
 - [How to revert merge?](#how-to-revert-merge)
 - [How to revert conflicted merge?](#how-to-revert-conflicted-merge)
+- [How to pick a commit and apply current branch from another branch? (cherry-pick)](#how-to-pick-a-commit-and-apply-current-branch-from-another-branch-cherry-pick)
 - [How to add a message to stash?](#how-to-add-a-message-to-stash)
 - [How to bring nth record from the stash list without removing it?](#how-to-bring-nth-record-from-the-stash-list-without-removing-it)
 - [How to bring last entry to the stash list and remove?](#how-to-bring-last-entry-to-the-stash-list-and-remove)
