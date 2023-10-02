@@ -5,7 +5,11 @@ A repository that contains life and timer saver git commands; rollback, revert, 
 - [How to undo the last commit from a remote git repository?](#how-to-undo-the-last-commit-from-a-remote-git-repository)
 - [How to revert merge?](#how-to-revert-merge)
 - [How to revert conflicted merge?](#how-to-revert-conflicted-merge)
-- [How do you bring any record from the Stash list without removing it from the list?](#how-do-you-bring-any-record-from-the-stash-list-without-removing-it-from-the-list)
+- [How to add a message to stash?](#how-to-add-a-message-to-stash)
+- [How to bring nth record from the stash list without removing it?](#how-to-bring-nth-record-from-the-stash-list-without-removing-it)
+- [How to bring last entry to the stash list and remove?](#how-to-bring-last-entry-to-the-stash-list-and-remove)
+- [How to delete a stash record from the list?](#how-to-delete-a-stash-record-from-the-list)
+- [How to move latest changes to stash with different branch?](#how-to-move-latest-changes-to-stash-with-different-branch)
 
 
 <hr/>
@@ -36,11 +40,6 @@ git merge --abort
 #### How to add a message to stash?
 ```bash
 git stash save "Your stash message"
-```
-
-#### How to list stash?
-```bash
-git stash list
 ```
 
 #### How to bring nth record from the stash list without removing it?
