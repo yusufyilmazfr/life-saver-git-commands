@@ -37,6 +37,11 @@ git push
 git merge --abort
 ```
 
+#### How to pick a commit and apply current branch from another branch? (cherry-pick)
+```bash
+git cherry-pick <commit_id>
+```
+
 #### How to add a message to stash?
 ```bash
 git stash save "Your stash message"
