@@ -31,16 +31,17 @@ git push
 git merge --abort
 ```
 
-### How do you add a message to stash?
+#### How do you add a message to stash?
 ```bash
 git stash save "Your stash message"
 ```
-###How do you retrieve recordings from Stash?
+
+#### How do you retrieve recordings from Stash?
 ```bash
 git stash list
 ```
 
-### How do you bring any record from the Stash list without removing it from the list?
+#### How do you bring any record from the Stash list without removing it from the list?
  ```bash
  git stash apply 
  ```
@@ -51,17 +52,17 @@ git stash list
  git stash apply {n}
  ```
 
-### How do you bring the last entry to the Stash list and remove it from the list?
+#### How do you bring the last entry to the Stash list and remove it from the list?
  ```bash
  git stash pop 
  ```
 
-### How do I delete a record from the Stash list?
+#### How do I delete a record from the Stash list?
  ```bash
  git stash drop 
  ```
 
-### How do I move the latest changes I added to Stash to a different branch?
+#### How do I move the latest changes I added to Stash to a different branch?
  ```bash
  git stash branch new-branch-name
  ```
