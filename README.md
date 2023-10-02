@@ -3,6 +3,8 @@ A repository that contains life and timer saver git commands; rollback, revert, 
 
 - [How to delete all local git branches?](#how-to-delete-all-local-git-branches)
 - [How to undo the last commit from a remote git repository?](#how-to-undo-the-last-commit-from-a-remote-git-repository)
+- [How to revert merge?](#how-to-revert-merge)
+- [How to revert conflicted merge?](#how-to-revert-conflicted-merge)
 
 <hr/>
 
