@@ -5,6 +5,8 @@ A repository that contains life and timer saver git commands; rollback, revert, 
 - [How to undo the last commit from a remote git repository?](#how-to-undo-the-last-commit-from-a-remote-git-repository)
 - [How to revert merge?](#how-to-revert-merge)
 - [How to revert conflicted merge?](#how-to-revert-conflicted-merge)
+- [How do you bring any record from the Stash list without removing it from the list?](#how-do-you-bring-any-record-from-the-stash-list-without-removing-it-from-the-list)
+
 
 <hr/>
 
@@ -31,39 +33,33 @@ git push
 git merge --abort
 ```
 
-#### How do you add a message to stash?
+#### How to add a message to stash?
 ```bash
 git stash save "Your stash message"
 ```
 
-#### How do you retrieve recordings from Stash?
+#### How to list stash?
 ```bash
 git stash list
 ```
 
-#### How do you bring any record from the Stash list without removing it from the list?
+#### How to bring nth record from the stash list without removing it?
  ```bash
- git stash apply 
- ```
-  from history n. applies stashed recording
- ```bash
- git stash apply stash@{n}
- # shortcut
- git stash apply {n}
+ git stash apply {n} # n is optional, from nth history.
  ```
 
-#### How do you bring the last entry to the Stash list and remove it from the list?
+#### How to bring last entry to the stash list and remove?
  ```bash
  git stash pop 
  ```
 
-#### How do I delete a record from the Stash list?
+#### How to delete a stash record from the list?
  ```bash
  git stash drop 
  ```
 
-#### How do I move the latest changes I added to Stash to a different branch?
+#### How to move latest changes to stash with different branch?
  ```bash
- git stash branch new-branch-name
+ git stash branch <new-branch-name>
  ```
 
