@@ -7,6 +7,7 @@ A repository that contains life and timer saver git commands; rollback, revert, 
 - [How to revert conflicted merge?](#how-to-revert-conflicted-merge)
 - [How to Checkout/Update a Single File From Remote Origin Master?](#how-to-checkoutupdate-a-single-file-from-remote-origin-master)
 - [How to pick a commit and apply current branch from another branch? (cherry-pick)](#how-to-pick-a-commit-and-apply-current-branch-from-another-branch-cherry-pick)
+- [How to remove untracked files?](#how-to-remove-untracked-files)
 - [How to add a message to stash?](#how-to-add-a-message-to-stash)
 - [How to bring nth record from the stash list without removing it?](#how-to-bring-nth-record-from-the-stash-list-without-removing-it)
 - [How to bring last entry to the stash list and remove?](#how-to-bring-last-entry-to-the-stash-list-and-remove)
@@ -47,6 +48,11 @@ git checkout origin/<branch-name> -- <path-to-file>
 #### How to pick a commit and apply current branch from another branch? (cherry-pick)
 ```bash
 git cherry-pick <commit_id>
+```
+
+#### How to remove untracked files?
+```bash
+git ls-files --others --exclude-standard | xargs rm
 ```
 
 #### How to add a message to stash?
