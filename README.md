@@ -83,6 +83,6 @@ git stash save "Your stash message"
 
 #### How to visualize all git logs?
  ```bash
- git log --oneline --graph -decorate --all
+ git log --oneline --graph --decorate --all
  ```
 
