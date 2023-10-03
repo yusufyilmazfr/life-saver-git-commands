@@ -13,6 +13,7 @@ A repository that contains life and timer saver git commands; rollback, revert, 
 - [How to bring last entry to the stash list and remove?](#how-to-bring-last-entry-to-the-stash-list-and-remove)
 - [How to delete a stash record from the list?](#how-to-delete-a-stash-record-from-the-list)
 - [How to move latest changes to stash with different branch?](#how-to-move-latest-changes-to-stash-with-different-branch)
+- [How to visualize all git logs?](#how-to-visualize-all-git-logs)
 
 
 <hr/>
@@ -78,5 +79,10 @@ git stash save "Your stash message"
 #### How to move latest changes to stash with different branch?
  ```bash
  git stash branch <new-branch-name>
+ ```
+
+#### How to visualize all git logs?
+ ```bash
+ git log --oneline --graph -decorate --all
  ```
 
